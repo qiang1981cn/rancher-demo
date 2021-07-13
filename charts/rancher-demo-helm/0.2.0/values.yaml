@@ -1,6 +1,7 @@
 # Default values for rancher-demo-helm.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+cow_color: red
 
 replicaCount: 1
 
