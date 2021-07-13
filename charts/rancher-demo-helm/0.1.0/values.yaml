@@ -47,7 +47,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: rancher-demo.${vminfo:developer:public_ip}.nip.io
+    - host: rancher-demo.18.217.109.137.nip.io
       paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
